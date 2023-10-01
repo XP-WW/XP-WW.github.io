@@ -18,24 +18,24 @@
   <meta name="author" content="苏禾">
   <meta name="keywords" content="IT 博客">
   
-    <meta name="description" content="👏👏👏大家好!!!💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生已学技术栈：  JavaSE MySQL Spring SpringMVC MyBatis SpringBoot SpringSecurity JWT  热衷于后端，但是样样不精通😭😭😭 近来，闲来无事，写个博客玩玩，哈哈哈哈">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://xp_ww.gitee.io/about/index.html">
+    <meta name="description" content="nginx基础配置12345678910111213141516woker_processes 1; #默认为1，表示开启一个业务进程events &amp;#123;	worker_connection 1024; #单个业务进程可接受连接数&amp;#125;http &amp;#123;	include mime.types; #引入http mime类型 匹配类型和文件后缀名		default_type appl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="nginx配置文件">
+<meta property="og:url" content="https://xp_ww.gitee.io/2023/09/30/nginx-config/index.html">
 <meta property="og:site_name" content="XP_WW">
-<meta property="og:description" content="👏👏👏大家好!!!💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生已学技术栈：  JavaSE MySQL Spring SpringMVC MyBatis SpringBoot SpringSecurity JWT  热衷于后端，但是样样不精通😭😭😭 近来，闲来无事，写个博客玩玩，哈哈哈哈">
+<meta property="og:description" content="nginx基础配置12345678910111213141516woker_processes 1; #默认为1，表示开启一个业务进程events &amp;#123;	worker_connection 1024; #单个业务进程可接受连接数&amp;#125;http &amp;#123;	include mime.types; #引入http mime类型 匹配类型和文件后缀名		default_type appl">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-27T10:58:04.000Z">
-<meta property="article:modified_time" content="2023-10-01T02:31:16.860Z">
+<meta property="article:published_time" content="2023-09-30T15:19:56.000Z">
+<meta property="article:modified_time" content="2023-10-01T03:06:09.839Z">
 <meta property="article:author" content="苏禾">
-<meta property="article:tag" content="IT 博客">
+<meta property="article:tag" content="nginx">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>关于 - XP_WW</title>
+  <title>nginx配置文件 - XP_WW</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -95,7 +95,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -213,9 +213,57 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="关于"></span>
+            <span id="subtitle" data-typed-text="nginx配置文件"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-09-30 23:19" pubdate>
+          2023年9月30日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          322 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          3 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span>次
+        </span>
+        
+      
+    
+  </div>
+
 
         
       </div>
@@ -231,90 +279,158 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-            <div class="about-avatar">
-              <img src="/img/avatar.jpg" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
-            </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="text-center">
-  <div class="about-info">
-    <div class="about-name">苏禾</div>
-    <div class="about-intro">一个小小小小.....码农</div>
-    <div class="about-icons">
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
       
-        
-        
-        
-        <a href=https://github.com/xp-ww class="
-           hint--bottom hint--rounded"
-           aria-label=GitHub
-           target="_blank"
-        >
-          <i class="iconfont icon-github-fill" aria-hidden="true"></i>
-          
-        </a>
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">nginx配置文件</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h3 id="nginx基础配置"><a href="#nginx基础配置" class="headerlink" title="nginx基础配置"></a>nginx基础配置</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs shell">woker_processes 1; #默认为1，表示开启一个业务进程<br><br>events &#123;<br>	worker_connection 1024; #单个业务进程可接受连接数<br>&#125;<br><br>http &#123;<br>	include mime.types; #引入http mime类型 匹配类型和文件后缀名<br>	<br>	default_type application/octet-stream; #如果mime类型没匹配上，默认使用二进制流的方式传输<br>	<br>	sendfile on; #使用linux的 sendfile(socket, file, len) 高效网络传输，也就是数据0拷贝。<br>	<br>	keepalive_timeout 65;// <br><br>&#125;<br></code></pre></td></tr></table></figure>
+
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
       
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
         
-        
-        
-        <a  class="qr-trigger
-           "
-           
-           target="_self"
-        >
-          <i class="iconfont icon-qq-fill" aria-hidden="true"></i>
-          
-            <img class="qr-img" src="/img/qq.png" srcset="/img/loading.gif" lazyload alt="qrcode" />
-          
-        </a>
+  <a href="/categories/nginx/" class="category-chain-item">nginx</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
-        
-        
-        
-        <a  class="qr-trigger
-           "
-           
-           target="_self"
-        >
-          <i class="iconfont icon-wechat-fill" aria-hidden="true"></i>
-          
-            <img class="qr-img" src="/img/qrcode.png" srcset="/img/loading.gif" lazyload alt="qrcode" />
-          
-        </a>
+        <a href="/tags/nginx/" class="print-no-link">#nginx</a>
       
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>nginx配置文件</div>
+      <div>https://xp_ww.gitee.io/2023/09/30/nginx-config/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>苏禾</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年9月30日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81OTAzMy8zNTQ5NQ== ">
+    <script type="text/javascript">
+      Fluid.utils.loadComments('#lv-container', function() {
+        Fluid.utils.createScript('https://cdn-city.livere.com/js/embed.dist.js');
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
     </div>
   </div>
 </div>
 
-<article class="about-content page-content mt-5">
-  <div class="markdown-body">
-    <h3 id="👏👏👏大家好"><a href="#👏👏👏大家好" class="headerlink" title="👏👏👏大家好!!!"></a>👏👏👏大家好!!!</h3><h5 id="💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生"><a href="#💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生" class="headerlink" title="💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生"></a>💻💻💻我是不会盲敲键盘的小小小…码农，笔名苏禾，双非本科大学软件工程专业在读学生</h5><p>已学技术栈：</p>
-<ul>
-<li>JavaSE</li>
-<li>MySQL</li>
-<li>Spring</li>
-<li>SpringMVC</li>
-<li>MyBatis</li>
-<li>SpringBoot</li>
-<li>SpringSecurity</li>
-<li>JWT</li>
-</ul>
-<p>热衷于后端，但是样样不精通😭😭😭</p>
-<p>近来，闲来无事，写个博客玩玩，哈哈哈哈</p>
-
-  </div>
-
-  
-</article>
-
 
 
 
@@ -341,11 +457,9 @@
 
 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+
     
 
     
@@ -463,6 +577,46 @@
   
 
 
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
 
 
   <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
