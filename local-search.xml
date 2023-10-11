@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>nginx实验三</title>
+    <link href="/blog/2112605806.html"/>
+    <url>/blog/2112605806.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="nginx实验挑战题"><a href="#nginx实验挑战题" class="headerlink" title="nginx实验挑战题"></a>nginx实验挑战题</h2><p class="note note-success">1.配置基于IP的虚拟主机。比如通过http://192.168.37.3/和http://192.168.37.8/可以分别打开不同的网站</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">1.配置虚拟主机(基于ip)</span><br>ifconfig ens33-1 192.168.37.8<br><span class="hljs-meta prompt_">#</span><span class="language-bash">2.修改nginx.conf配置文件</span><br>server &#123;<br>    listen 192.168.37.8:80;#监听IP和端口<br>    server_name 192.168.37.8;<br>    root html/html378;<br>    index index.html index.htm;<br>&#125;<br><span class="hljs-meta prompt_">#</span><span class="language-bash">3.重启nginx服务</span><br>Systemctl restart nginx<br><span class="hljs-meta prompt_">#</span><span class="language-bash">4.进入浏览器分别访问192.168.37.3和192.168.37.8</span><br></code></pre></td></tr></table></figure><p class="note note-success">2.配置基于域名的虚拟主机。比如通过http://www.xp.com/和http://www.xp.net/可以分别打开不同的网站</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">1.为虚拟机解析域名</span><br>vi /etc/hostname<br>192.168.37.3 www.xp.com www.xp.net<br><span class="hljs-meta prompt_">#</span><span class="language-bash">2.修改nginx.conf</span><br>server &#123;<br>     listen 80;<br>     server_name www.xp.com;<br>     root html/htmlcom;<br>     index index.html index.htm;<br>&#125;<br>server &#123;<br>   listen 80;<br>   server_name www.xp.net;<br>   root html/htmlnet;<br>   index index.html index.htm;<br>&#125;<br><span class="hljs-meta prompt_">#</span><span class="language-bash">3.此时只能在虚拟机本机访问,要想在电脑访问，需要修改C:\Windows\System32\drivers\etc下的hosts文件加入虚拟域名</span><br>192.168.37.3 www.xp.com<br>192.168.37.3 www.xp.net<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>nginx</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>nginx</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java八股文之JavaSE--面向对象</title>
     <link href="/blog/1491118462.html"/>
     <url>/blog/1491118462.html</url>
@@ -132,9 +157,9 @@
     
     <tags>
       
-      <tag>算法</tag>
-      
       <tag>java</tag>
+      
+      <tag>算法</tag>
       
     </tags>
     
