@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Docker</title>
+    <link href="/blog/4126800539.html"/>
+    <url>/blog/4126800539.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Docker的学习笔记"><a href="#Docker的学习笔记" class="headerlink" title="Docker的学习笔记"></a>Docker的学习笔记</h2><h4 id="什么是Docker"><a href="#什么是Docker" class="headerlink" title="什么是Docker?"></a><span class="note note-info">什么是Docker?</span></h4><blockquote><p><a href="https://www.docker.com/">Docker</a> 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的<a href="https://baike.baidu.com/item/%E9%95%9C%E5%83%8F/1574?fromModule=lemma_inlink">镜像</a>中，然后发布到任何流行的 Linux或Windows操作系统的机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。</p></blockquote><h4 id="安装Docker"><a href="#安装Docker" class="headerlink" title="安装Docker"></a><span class="note note-success">安装Docker</span></h4><ol><li><p>安装<code>yum-utils</code>,其提供了<code>yum-config-manager</code>工具,用于配置管理</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> <span class="token parameter variable">-y</span> yum-utils<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></figure></li><li><p>添加Docker下载仓库</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#官网仓库，此地址为官方的仓库地址，在国内建议不要用</span>yum-config-manager <span class="token punctuation">\</span>   --add-repo <span class="token punctuation">\</span>   https://download.docker.com/linux/centos/docker-ce.repo      <span class="token comment">#国内阿里云仓库</span>yum-config-manager <span class="token punctuation">\</span>--add-repo <span class="token punctuation">\</span> http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure></li><li><p>安装</p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> docker-ce docker-ce-cli containerd.io docker-compose-plugin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></figure></li><li><p>Docker启动</p><p><code>systemctl start docker</code></p></li><li><p>启动Docker</p><p><code>docker version</code></p><figure><div class="code-wrapper"><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Client: Docker Engine - Community Version:           <span class="token number">24.0</span>.6 <span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span> Server: Docker Engine - Community Engine:  Version:          <span class="token number">24.0</span>.6  <span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure></li><li><p>重启Docker</p><p><code>systemctl restart docker</code></p></li><li><p>查看Docker状态</p><p><code>systemctl status docker</code></p></li><li><p>开机自启动</p><p><code>systemctl enable docker</code></p></li><li><p>Docker停止</p><p><code>systemctl stop docker</code></p></li><li><p>关闭开机自启动</p><p><code>systemctl disable docker</code></p></li></ol><h4 id="Docker镜像相关命令"><a href="#Docker镜像相关命令" class="headerlink" title="Docker镜像相关命令"></a><span class="note note-primary">Docker镜像相关命令</span></h4><ol><li><p><code>docker pull</code></p><blockquote><p>可以将指定镜像从docker hub 拉取到本地</p><p>用法 ：<code>docker pull [OPTIONS] NAME[:TAG|@DIGEST]</code></p><p><code>OPTIONS：-q</code>:简化日志输出</p></blockquote></li><li><p><code>docker images</code></p><blockquote><p>可以查看本地所有镜像资源信息，按创建时间排序</p><p>用法：<code>docker images [OPTIONS] [REPOSITORY[:TAG]]</code></p><p><code>OPTIONS：-q</code>:仅显示镜像的Image ID</p><p><code>OPTIONS：-f</code>:过滤指定条件的镜像</p><table><thead><tr><th>REPOSITORY</th><th>TAG</th><th>IMAGE ID</th><th>CREATED</th><th>SIZE</th></tr></thead><tbody><tr><td>仓库名称</td><td>版本号</td><td>唯一标识</td><td>创建时间</td><td>镜像大</td></tr></tbody></table></blockquote></li><li><p><code>docker search</code></p><blockquote><p>从docker hub上查看指定名称的镜像</p><p>用法：<code>docker search [OPTIONS] TERM</code></p><p><code>OPTIONS：--limit</code>:指定显示结果的数量</p></blockquote></li><li><p><code>docker rmi</code></p><blockquote><p>删除指定的本地镜像,可以指定多个一次性删除</p><p>用法：<code>docker rmi [OPTIONS] IMAGE [IMAGE...]</code></p><p><code>OPTIONS：-f</code>:强制删除，包括已经运行的</p><p>镜像通过<code>&lt;repository&gt;:&lt;tag&gt;</code>指定，没有<code>tag</code>，则默认是<code>latest</code>版本</p></blockquote></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Docker</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Docker</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>nginx实验四挑战题</title>
     <link href="/blog/3016513403.html"/>
     <url>/blog/3016513403.html</url>
