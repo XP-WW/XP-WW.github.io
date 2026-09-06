@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $distPath = Join-Path $projectRoot "src\.vuepress\dist"
-$repoUrl = "https://github.com/XP-WW/blog.git"
+$repoUrl = "git@github.com:XP-WW/blog.git"
 $branch = "gh-pages"
 
 Write-Host "=== Step 1: Building VuePress blog ===" -ForegroundColor Cyan
