@@ -1,4 +1,4 @@
-﻿# VuePress 博客自动部署脚本
+# VuePress 博客自动部署脚本
 # 执行: npm run deploy 或 powershell -ExecutionPolicy Bypass -File deploy.ps1
 
 $ErrorActionPreference = "Stop"
