@@ -38,4 +38,4 @@ if ($LASTEXITCODE -ne 0) {
 
 Set-Location $projectRoot
 Write-Host "`n=== Deploy completed! ===" -ForegroundColor Green
-Write-Host "Blog URL: https://XP-WW.github.io/blog/" -ForegroundColor Green
+Write-Host "Blog URL: https://blog.xpww.cn" -ForegroundColor Green
