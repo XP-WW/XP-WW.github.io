@@ -4,16 +4,16 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://XP-WW.github.io/blog",
+  hostname: "https://XP-WW.github.io",
 
   author: {
     name: "苏禾",
-    url: "https://XP-WW.github.io/blog",
+    url: "https://XP-WW.github.io",
   },
 
   logo: "/logo.svg",
 
-  repo: "XP-WW/blog",
+  repo: "XP-WW/XP-WW.github.io",
 
   docsDir: "src",
 
