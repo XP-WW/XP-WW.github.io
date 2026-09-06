@@ -1,8 +1,9 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
 ---
 
-# Intro Page
+# About Me
 
-Place your introduction and profile here.
+This is Suhe's personal blog.
+
+Welcome!

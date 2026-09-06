@@ -1,8 +1,9 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
 ---
 
-# 介绍页
+# 关于我
 
-将你的个人介绍和档案放置在此处。
+这里是苏禾的个人博客。
+
+欢迎光临！
