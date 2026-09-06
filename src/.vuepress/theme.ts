@@ -4,11 +4,11 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://XP-WW.github.io",
+  hostname: "https://blog.xpww.cn",
 
   author: {
     name: "苏禾",
-    url: "https://XP-WW.github.io",
+    url: "https://github.com/XP-WW",
   },
 
   logo: "/logo.svg",
@@ -18,8 +18,10 @@ export default hopeTheme({
   docsDir: "src",
 
   blog: {
+    intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/XP-WW",
+      Gmail: "mailto:xp0920ww@163.com",
       Email: "mailto:xp0920ww@163.com",
     },
   },
@@ -31,7 +33,7 @@ export default hopeTheme({
       footer: "Suhe's Blog",
       displayFooter: true,
       blog: {
-        description: "A personal blog",
+        description: "A FrontEnd & BackEnd programmer",
         intro: "/intro.html",
       },
       metaLocales: {
@@ -44,7 +46,7 @@ export default hopeTheme({
       footer: "苏禾的博客",
       displayFooter: true,
       blog: {
-        description: "一个个人博客",
+        description: "一名热爱技术的前后端开发者",
         intro: "/zh/intro.html",
       },
       metaLocales: {
@@ -53,8 +55,25 @@ export default hopeTheme({
     },
   },
 
+  encrypt: {},
+
   plugins: {
     blog: true,
+
+    feed: {
+      hostname: "https://blog.xpww.cn",
+      atom: true,
+      json: true,
+      rss: true,
+      count: 10,
+    },
+
+    // 评论系统：启用前需部署 Waline 服务端，然后填写 serverURL 并取消注释
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://your-waline-server.example.com",
+    // },
+
     icon: {
       prefix: "fa6-solid:",
     },
