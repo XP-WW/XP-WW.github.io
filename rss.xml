@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.xpww.cn/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.xpww.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>苏禾的博客</title>
+    <link>https://blog.xpww.cn/</link>
+    <description>苏禾的个人博客 - 分享技术与生活</description>
+    <language>zh-CN</language>
+    <pubDate>Sun, 06 Sep 2026 18:07:41 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Sep 2026 18:07:41 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title>关于我</title>
+      <link>https://blog.xpww.cn/intro.html</link>
+      <guid>https://blog.xpww.cn/intro.html</guid>
+      <source url="https://blog.xpww.cn/rss.xml">关于我</source>
+      <description>关于我 你好，我是 苏禾，一名热爱技术的开发者。 关于我 热爱编程，喜欢研究前端与后端技术 喜欢把踩过的坑记录下来，分享给同样在路上的朋友 常用技术栈：Vue / VuePress / Node.js / Java / Git 这个博客 这个博客基于 VuePress 和 vuepress-theme-hope 搭建， 部署在 GitHub Pages...</description>
+      <pubDate>Sun, 06 Sep 2026 15:40:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>你好，我是 <strong>苏禾</strong>，一名热爱技术的开发者。</p>
+<h2>关于我</h2>
+<ul>
+<li>热爱编程，喜欢研究前端与后端技术</li>
+<li>喜欢把踩过的坑记录下来，分享给同样在路上的朋友</li>
+<li>常用技术栈：Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+<h2>这个博客</h2>
+<p>这个博客基于 <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress</a> 和 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a> 搭建，
+部署在 GitHub Pages 上，使用自定义域名 <a href="https://blog.xpww.cn" target="_blank" rel="noopener noreferrer">blog.xpww.cn</a> 访问。</p>
+<p>这里会分享：</p>
+<ul>
+<li>技术笔记与开发实践</li>
+<li>环境搭建与工具配置</li>
+<li>日常随笔与思考</li>
+</ul>
+<h2>联系我</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/XP-WW" target="_blank" rel="noopener noreferrer">github.com/XP-WW</a></li>
+<li>邮箱: xp0920ww@163.com</li>
+</ul>
+<p>欢迎交流！</p>
+]]></content:encoded>
+      <enclosure url="https://blog.xpww.cn/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

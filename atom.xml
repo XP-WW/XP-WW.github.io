@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.xpww.cn/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <id>https://blog.xpww.cn/</id>
+  <title>苏禾的博客</title>
+  <subtitle>苏禾的个人博客 - 分享技术与生活</subtitle>
+  <updated>2026-09-06T18:07:41.749Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://blog.xpww.cn/atom.xml"/>
+  <link rel="alternate" href="https://blog.xpww.cn/"/>
+  <entry>
+    <title type="text">关于我</title>
+    <id>https://blog.xpww.cn/intro.html</id>
+    <link href="https://blog.xpww.cn/intro.html"/>
+    <updated>2026-09-06T17:16:08.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>你好，我是 <strong>苏禾</strong>，一名热爱技术的开发者。</p>
+<h2>关于我</h2>
+<ul>
+<li>热爱编程，喜欢研究前端与后端技术</li>
+<li>喜欢把踩过的坑记录下来，分享给同样在路上的朋友</li>
+<li>常用技术栈：Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+<h2>这个博客</h2>
+<p>这个博客基于 <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress</a> 和 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a> 搭建，
+部署在 GitHub Pages 上，使用自定义域名 <a href="https://blog.xpww.cn" target="_blank" rel="noopener noreferrer">blog.xpww.cn</a> 访问。</p>]]></summary>
+    <content type="html"><![CDATA[
+<p>你好，我是 <strong>苏禾</strong>，一名热爱技术的开发者。</p>
+<h2>关于我</h2>
+<ul>
+<li>热爱编程，喜欢研究前端与后端技术</li>
+<li>喜欢把踩过的坑记录下来，分享给同样在路上的朋友</li>
+<li>常用技术栈：Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+<h2>这个博客</h2>
+<p>这个博客基于 <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress</a> 和 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a> 搭建，
+部署在 GitHub Pages 上，使用自定义域名 <a href="https://blog.xpww.cn" target="_blank" rel="noopener noreferrer">blog.xpww.cn</a> 访问。</p>
+<p>这里会分享：</p>
+<ul>
+<li>技术笔记与开发实践</li>
+<li>环境搭建与工具配置</li>
+<li>日常随笔与思考</li>
+</ul>
+<h2>联系我</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/XP-WW" target="_blank" rel="noopener noreferrer">github.com/XP-WW</a></li>
+<li>邮箱: xp0920ww@163.com</li>
+</ul>
+<p>欢迎交流！</p>
+]]></content>
+    <published>2026-09-06T15:40:00.000Z</published>
+  </entry>
+</feed>

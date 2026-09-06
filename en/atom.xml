@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.xpww.cn/en/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://blog.xpww.cn/en/</id>
+  <title>Suhe&amp;apos;s Blog</title>
+  <subtitle>Suhe&amp;apos;s personal blog - sharing tech notes and life</subtitle>
+  <updated>2026-09-06T18:07:41.749Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://blog.xpww.cn/en/atom.xml"/>
+  <link rel="alternate" href="https://blog.xpww.cn/en/"/>
+  <entry>
+    <title type="text">About Me</title>
+    <id>https://blog.xpww.cn/en/intro.html</id>
+    <link href="https://blog.xpww.cn/en/intro.html"/>
+    <updated>2026-09-06T17:16:08.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>Hi, I'm <strong>Suhe</strong>, a developer who loves technology.</p>
+<h2>About</h2>
+<ul>
+<li>Passionate about programming, exploring frontend and backend technologies</li>
+<li>Love documenting lessons learned and sharing them</li>
+<li>Tech stack: Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>Hi, I'm <strong>Suhe</strong>, a developer who loves technology.</p>
+<h2>About</h2>
+<ul>
+<li>Passionate about programming, exploring frontend and backend technologies</li>
+<li>Love documenting lessons learned and sharing them</li>
+<li>Tech stack: Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+<h2>This Blog</h2>
+<p>Built with <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>,
+hosted on GitHub Pages with custom domain <a href="https://blog.xpww.cn" target="_blank" rel="noopener noreferrer">blog.xpww.cn</a>.</p>
+<p>You will find here:</p>
+<ul>
+<li>Tech notes and development practices</li>
+<li>Environment setup and tool configuration</li>
+<li>Daily thoughts</li>
+</ul>
+<h2>Contact</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/XP-WW" target="_blank" rel="noopener noreferrer">github.com/XP-WW</a></li>
+<li>Email: xp0920ww@163.com</li>
+</ul>
+<p>Welcome!</p>
+]]></content>
+    <published>2026-09-06T15:40:00.000Z</published>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.xpww.cn/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.xpww.cn/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Suhe&amp;apos;s Blog</title>
+    <link>https://blog.xpww.cn/en/</link>
+    <description>Suhe&amp;apos;s personal blog - sharing tech notes and life</description>
+    <language>en-US</language>
+    <pubDate>Sun, 06 Sep 2026 18:07:41 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Sep 2026 18:07:41 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title>About Me</title>
+      <link>https://blog.xpww.cn/en/intro.html</link>
+      <guid>https://blog.xpww.cn/en/intro.html</guid>
+      <source url="https://blog.xpww.cn/en/rss.xml">About Me</source>
+      <description>About Me Hi, I&amp;apos;m Suhe, a developer who loves technology. About Passionate about programming, exploring frontend and backend technologies Love documenting lessons learned and sha...</description>
+      <pubDate>Sun, 06 Sep 2026 15:40:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Hi, I'm <strong>Suhe</strong>, a developer who loves technology.</p>
+<h2>About</h2>
+<ul>
+<li>Passionate about programming, exploring frontend and backend technologies</li>
+<li>Love documenting lessons learned and sharing them</li>
+<li>Tech stack: Vue / VuePress / Node.js / Java / Git</li>
+</ul>
+<h2>This Blog</h2>
+<p>Built with <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> and <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>,
+hosted on GitHub Pages with custom domain <a href="https://blog.xpww.cn" target="_blank" rel="noopener noreferrer">blog.xpww.cn</a>.</p>
+<p>You will find here:</p>
+<ul>
+<li>Tech notes and development practices</li>
+<li>Environment setup and tool configuration</li>
+<li>Daily thoughts</li>
+</ul>
+<h2>Contact</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/XP-WW" target="_blank" rel="noopener noreferrer">github.com/XP-WW</a></li>
+<li>Email: xp0920ww@163.com</li>
+</ul>
+<p>Welcome!</p>
+]]></content:encoded>
+      <enclosure url="https://blog.xpww.cn/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
